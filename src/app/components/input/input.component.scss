@@ -1,0 +1,17 @@
+@import '../../../globals/variables';
+
+:host {
+    width: 100%;
+
+    label {
+        font-weight: bold;
+    }
+    
+    input {
+        width: 100%;
+        background-color: $text-input-field;
+        border: none;
+        border-radius: $main-border-radius;
+        padding: 6px;
+    }
+}
